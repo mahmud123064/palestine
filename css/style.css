@@ -1,0 +1,40 @@
+@import url(https://fonts.googleapis.com/css?family=Anonymous+Pro);
+
+body,
+html {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+}
+
+#typewriter-container {
+    overflow: hidden;
+    height: 87vh;
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 5px;
+    scroll-behavior: smooth;
+}
+
+#typewriter-text {
+    white-space: pre-line;
+    overflow: hidden;
+    /* border-right: 2px solid #000; */
+    padding: 10px;
+    font-size: 24px;
+    color: #f3eeee;
+    line-height: 1.5;
+   
+}
+
+.view{
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    min-height: 80vh;
+    position: relative;
+    color: white;
+    padding: 20px;
+}
