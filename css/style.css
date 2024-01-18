@@ -38,3 +38,32 @@ html {
     color: white;
     padding: 20px;
 }
+
+.button{
+    position: relative;
+    text-decoration: none;
+    font-size: 1.5em;
+    letter-spacing: 0.1em;
+    font-weight: 400;
+    padding: 10px 20px;
+    transition: 0.5s;
+    border: none;
+    border-radius: 10px;
+    color: white;
+}
+
+.button:hover{
+    letter-spacing: 0.25em;
+    background: var(--clr);
+    box-shadow: 0 0 35px var(--clr);
+    color: red;
+    background-color: green;
+    
+}
+
+.button::before{
+    content: "JOIN THE CAUSE";
+    position: absolute;
+    inset: 2px;
+    background:rgb(6, 8, 7);
+}
