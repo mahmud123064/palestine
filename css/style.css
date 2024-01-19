@@ -1,4 +1,5 @@
 @import url(https://fonts.googleapis.com/css?family=Anonymous+Pro);
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap');
 
 body,
 html {
@@ -67,3 +68,29 @@ html {
     inset: 2px;
     background:rgb(6, 8, 7);
 }
+
+
+/* Login form  */
+
+.or{
+    position: relative;
+  }
+  .or:before{
+    content: '';
+    height: 1px;
+    background: linear-gradient(to right,silver,silver,rgba(255,255,255,0),rgba(255,255,255,0),silver,silver);
+    position: absolute;
+    left: 0;
+    top: 50%;
+    width: 100%;
+    z-index: 0;
+  }
+
+  .text-details{
+   font-size: 28px;
+   font-family: cursive;
+  }
+
+  .text-design{
+    text-decoration: none;
+  }
