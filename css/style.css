@@ -50,6 +50,10 @@ body {
     max-width: 800px;
 }
 
+.paragraph{
+    margin-top: -65px;
+}
+
 
 .view {
 
@@ -192,6 +196,8 @@ body {
     text-decoration: none;
     font-weight: 500;
 }
+
+
 
 @media (max-width: 576px) {
     #main-text {
