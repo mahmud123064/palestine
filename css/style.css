@@ -91,7 +91,7 @@ body {
 }
 
 .button:hover {
-    letter-spacing: 0.25em;
+    /* letter-spacing: 0.25em; */
     background: var(--clr);
     box-shadow: 0 0 35px var(--clr);
     color: red;
@@ -198,6 +198,14 @@ body {
 }
 
 
+ /* Sign up page  */
+
+
+
+
+
+
+ 
 
 @media (max-width: 576px) {
     #main-text {
